@@ -1,0 +1,445 @@
+<script src="/sites/Your/Style Library/Your1/js/angular1.2.27.min.js"></script>
+<script src="/sites/Your/Style Library/Your1/js/ControllerComingSoon.js"></script>
+
+<style>
+
+table#orgChrtOuter1 td { text-align:center; vertical-align: top; padding:0px;}
+table#orgChrtOuter1 td div.headEmplDiv1, table.orgChrtInner1 td div.EmplNode1 { text-align:center; border:1px solid #a3a3a3; margin:0px; padding:5px 6px; display:inline-block; width: 190px; white-space:nowrap; background-color:#ffffe0;
+-webkit-border-radius: 8px;
+-moz-border-radius: 8px;
+border-radius: 8px;
+-webkit-box-shadow: #B3B3B3 1px 1px 1px;
+-moz-box-shadow: #B3B3B3 1px 1px 1px; 
+box-shadow: #B3B3B3 1px 1px 1px; 
+}
+
+table#orgChrtOuter1 div.headEmplDiv2 {width:280px; background-color:#ffffe0!important;}
+
+table#orgChrtOuter1 div.headEmplDiv2 strong, table#orgChrtOuter1 div.headEmplDiv2 span.ng-binding, div.EmplNode1 span.ng-binding {font-size:13px; }
+
+
+table#orgChrtOuter1 td.emplTd1 div.lvl1 { margin:0px 15px 0px 0px; }
+
+table#orgChrtOuter1 td div.headEmplDiv1 {
+	width: auto;
+	padding: 0px 10px 5px 10px; 
+}
+
+table#orgChrtOuter1 td div.headEmplDiv1 div{
+	background-color: #ffffff;
+}
+
+table#orgChrtOuter1 td.managrTd1 {
+	padding-top:30px;				
+}
+
+table#orgChrtOuter1 td.managrTd1 div {
+	margin-right:15px;				
+}
+
+table#orgChrtOuter1 td.connector1 {
+   		background-image: url("/sites/Your/Style%20Library/Your1/img/nodeBg1.png");
+		background-repeat: no-repeat;
+		background-position: center top; 
+		padding-top:25px;
+}
+
+table#orgChrtOuter1 td.connector2 {
+   		background-image: url("/sites/Your/Style%20Library/Your1/img/nodeBg2.png");
+		background-repeat: no-repeat;
+		background-position: center top; 
+		padding-top:25px;
+}
+
+table#orgChrtOuter1 td.connector3 {
+   		background-image: url("/sites/Your/Style%20Library/Your1/img/nodeBg3.png");
+		background-repeat: no-repeat;
+		background-position: center top; 
+		padding-top:25px;
+}
+
+
+table#orgChrtOuter1 td.connector4 {
+   		background-image: url('/sites/Your/Style%20Library/Your1/img/blackDot1.png');
+		background-repeat: repeat-x;
+		background-position: center top;
+		width:1px!important;
+		font-size:2px; 
+}
+
+
+table#orgChrtOuter1 td.connector4 div{
+		width:1px!important;
+		font-size:2px!important; 
+}
+/*
+table#orgChrtOuter1 td.connector6 {
+   		background-image: url("/sites/Your/Style%20Library/Your1/img/blackDot1.png");
+		background-repeat: repeat-y;
+		background-position: 50% 50%; 
+}
+*/
+table#orgChrtOuter1 td.connector6 {
+   		background-image: url("/sites/Your/Style%20Library/Your1/img/nodeBg7.png");
+		background-repeat: no-repeat;
+		background-position: 0% 99%;  
+}
+
+table#orgChrtOuter1 td.connector7 {
+   		background-image: url("/sites/Your/Style%20Library/Your1/img/nodeBg7.png");
+		background-repeat: no-repeat;
+		background-position: 0% 50%; 
+}
+
+table#orgChrtOuter1 td.connector8 {
+   		background-image: url("/sites/Your/Style%20Library/Your1/img/nodeBg8.png");
+		background-repeat: no-repeat;
+		background-position: 0% top; 
+}
+
+table#orgChrtOuter1 td.connector21 {
+  		background-image: url("/sites/Your/Style%20Library/Your1/img/nodeBg21.png");
+		background-repeat: no-repeat;
+		background-position: 45px 0px; 
+		background-color:#ffffff;
+		padding-left: 65px;
+}
+
+table#orgChrtOuter1 td.connector22 {
+  		background-image: url("/sites/Your/Style%20Library/Your1/img/nodeBg22.png");
+		background-repeat: no-repeat;
+		background-position: 45px 0px; 
+		background-color:#ffffff;
+		padding-left: 65px;
+}
+
+table#orgChrtOuter1 td.connector23 {
+  		background-image: url("/sites/Your/Style%20Library/Your1/img/nodeBg23.png");
+		background-repeat: no-repeat;
+		background-position: 45px 0px; 
+		background-color:#ffffff;
+		padding-left: 65px;
+}
+
+table#orgChrtOuter1 td.connector6, table#orgChrtOuter1 td.connector7, table#orgChrtOuter1 td.connector8 {
+		width: 80px; text-align:right; background-color: #ffffff; padding:0px!important;
+}
+
+table.connctorTbl {
+				width:100%; height:100%!important; display:inline-block; margin:0px}
+
+td.lbBorderTd {
+	border:none!important;
+	border-left: 1px solid #404040!important;
+	border-bottom: 1px solid #404040!important;			
+	height:35px!important;
+}
+td.rbBorderTd {
+	border:none;
+	border-left: 1px solid #404040!important;
+		height:35px!important;
+}
+
+div.borderNone1{ border:none!important; display:block; width:auto;}
+
+table#orgChrtOuter1 div.headEmplDiv2 > a, table.orgChrtInner1 div.EmplNode1 > a, table.orgChrtInner1 div.EmplNode1 span > a  {
+text-decoration: none;
+border: none;
+}
+
+table#orgChrtOuter1 button.btn {border:none; padding:0px; background-color:#ffffff; max-width:23px!important; min-width:23px!important;}
+
+
+
+
+
+
+h2#YourOrgChrTtl  {display:none}
+
+table#orgChrtOuter1 td.padng1 { padding:0px 10px; width:100px;}
+
+table#orgChrtOuter1 td.connectorP1 {
+		width:45px; min-width:45px; border-right:1px solid #404040;
+} 
+
+table#orgChrtOuter1 td.connectorP1B {
+		width:45px; min-width:45px;
+} 
+
+table#orgChrtOuter1 td.connectorP2 {
+		width:30px; min-width:30px;
+		border-bottom:1px solid #404040;
+} 
+
+table#orgChrtOuter1 td.connectorP3 {
+		width:30px; min-width:30px;
+} 
+
+table#orgChrtOuter1 td.connectorP4 {
+		width:45px; min-width:45px;
+} 
+
+table#orgChrtOuter1 td.connectorP01 {
+		width:45px; min-width:55px; 
+		border-top:1px solid #404040;
+		border-right:1px solid  #404040;
+} 
+
+table#orgChrtOuter1 td.connectorP01L {
+		width:45px; min-width:55px; 
+		border-right:1px solid #404040;
+} 
+
+table#orgChrtOuter1 td.connectorP01M {
+		border-top:1px solid #404040;
+} 
+
+table#orgChrtOuter1 td.connectorP01R {
+		width: auto;
+} 
+
+@media print {
+  div#ms-designer-ribbon, div#topNavFixedContainer, div.EmplNode1>span>button>img, div.EmplNode1>button>img, div.headEmplDiv2>button>img {display: none!important;}
+  #YourFooter1 {display: none!important; visibility: hidden;}
+  div#YourWelcomePgTtlDiv div.TitlePageFieldDiv1 {display:none}
+  h2#YourOrgChrTtl  {text-align: left; color:#404040; display:block; padding-left:15px } 
+}
+
+</style>
+
+<div ng-app="YourOrgChartApp" ng-controller="YourOrgChartControll" >
+<table border="0" id="orgChrtOuter1">
+<tr>
+<td ng-repeat="headEmpl in emplees">     
+<h2 id="YourOrgChrTtl" style="text-align:left">Your Branch Organization Chart</h2>
+<div class="headEmplDiv1"><div class="headEmplDiv2">
+      <img style="vertical-align:text-bottom" src="/sites/Your/Style%20Library/Your1/img/person1.png" alt="" /> 
+      <strong>{{headEmpl.name}}</strong>      
+      <!-- instead of "<a... />", <button ... /> is used.  Otherwise Popovers won't work for Chrome -->
+      <button type="button" class="btn" data-toggle="popover" data-content="<strong>Tel</strong>: {{headEmpl.tel}}<br /><strong>Email</strong>: <a href='mailto:{{headEmpl.Email}}'>{{headEmpl.Email}}</a><br /><strong>Office</strong>: <a href='#' onclick='LinkToFloorPlan()'>{{headEmpl.OfficeNo}} <img src='/sites/Your/Style%20Library/Your1/img/magnifier1.png' alt='' /></a>" data-trigger="focus"><img src="/sites/Your/Style%20Library/Your1/img/ThreeDots1.png" alt="" /></button>   
+      <br />
+      <span ng-bind-html="headEmpl.title | renderHTMLCorrectly"></span></div></div>
+
+<table width="100%" cellspacing="0" cellpadding="0"><tr><td style="width:50%; border-right:1px solid #404040; height:35px">&nbsp;</td><td style="width:auto">&nbsp;</td></tr></table>
+
+<!-- show managers under the director  -->
+	<table border="0" style="min-height:100px" cellspacing="0" cellpadding="0">
+	<tr>
+    <td ng-repeat="mem1 in headEmpl.team"> <!-- connectors above manager nodes -->
+		<table border="0" width="100%" style="min-height:25px" cellspacing="0" cellpadding="0">
+		<tr><td ng-attr-class="{{($first && !$last) && 'connectorP01L' || 'connectorP01' }}">&nbsp;</td><td ng-attr-class="{{($last && !first) && 'connectorP01R' || 'connectorP01M' }}">&nbsp;</td></tr>	
+        </table>
+    </td>
+	</tr>
+
+	<tr>
+    <td ng-repeat="mem1 in headEmpl.team" class="padng1">   
+
+
+	<table class="orgChrtInner1" border="0" style="min-height:100px" cellspacing="0" cellpadding="0">
+	<tr>
+	<td>
+		<table border="0" style="height:100%" cellspacing="0" cellpadding="0"><tr><td style="height:100%">
+			<div class="lvl1 EmplNode1" ng-style="{'width': NodeWidthByNodeLength1(mem1.wideNode)}">			
+           <span style="margin:0px 0px!important;">
+           <img style="vertical-align:text-bottom" src="/sites/Your/Style%20Library/Your1/img/person1.png" alt="" /> 
+           <span ng-bind-html="mem1.name | renderHTMLCorrectly" style="font-weight:bolder"></span>
+           <button type="button" class="btn" data-toggle="popover" data-content="<strong>Tel</strong>: {{mem1.tel}}<br /><strong>Email</strong>: <a href='mailto:{{mem1.Email}}'>{{mem1.Email}}</a><br /><strong>Office</strong>: <a href='#' onclick='LinkToFloorPlan()'>{{mem1.OfficeNo}} <img src='/sites/Your/Style%20Library/Your1/img/magnifier1.png' alt='' /></a>" data-trigger="focus"><img src="/sites/Your/Style%20Library/Your1/img/ThreeDots1.png" alt="" /></button>
+           <br />
+           <span ng-bind-html="mem1.title | renderHTMLCorrectly"></span>
+           </span>
+           </div>					
+		</td></tr>
+		</table>					
+	</td></tr>
+
+
+<!-- new tree-branch to loop thru employees under the manager -->
+
+<tr ng-repeat="mem2 in mem1.team" style="background-color:#ffffff">
+<td>
+
+<table border="0" width="100%" style="min-height:100px" cellspacing="0" cellpadding="0">
+<tr><td class="connectorP1">&nbsp;</td><td class="connectorP3"></td><td>&nbsp;</td></tr>
+<tr><td class="connectorP1">&nbsp;</td><td class="connectorP2"></td>
+<td style="border:none;" rowspan="3">
+
+<table border="0" style="height:100%" cellspacing="0" cellpadding="0"><tr><td style="height:100%">
+		<div class="EmplNode1" ng-style="{'margin':'15px 0px 0px 0px', 'width':NodeWidthByNodeLength1(mem2.wideNode)}">
+		<img style="vertical-align:text-bottom" src="/sites/Your/Style%20Library/Your1/img/person1.png" alt="" /> 
+           <span ng-bind-html="mem2.name | renderHTMLCorrectly" style="font-weight:bolder"></span> 
+           <button type="button" class="btn" data-toggle="popover" data-content="<strong>Tel</strong>: {{mem2.tel}}<br /><strong>Email</strong>: <a href='mailto:{{mem2.Email}}'>{{mem2.Email}}</a><br /><strong>Office</strong>: <a href='#' onclick='LinkToFloorPlan()'>{{mem2.OfficeNo}} <img src='/sites/Your/Style%20Library/Your1/img/magnifier1.png' alt='' /></a>" data-trigger="focus"><img src="/sites/Your/Style%20Library/Your1/img/ThreeDots1.png" alt="" /></button>
+      
+           <br />
+           <span ng-bind-html="mem2.title | renderHTMLCorrectly"></span>
+        </div>
+
+</td></tr></table>
+
+</td></tr>
+<tr><td ng-attr-class="{{$last && 'connectorP1B' || 'connectorP1'}}">&nbsp;</td><td class="connectorP3">&nbsp;</td></tr>
+<tr><td ng-attr-class="{{$last && 'connectorP1B' || 'connectorP1'}}">&nbsp;</td><td>&nbsp;</td></tr>
+
+<!-- new tree-branch to loop thru employees under a team-lead -->
+
+<tr ng-repeat="mem3 in mem2.team" style="background-color:#ffffff">
+<td class="connectorP1">&nbsp;</td>
+<td>&nbsp;</td>
+<td>
+<table border="0" width="100%" style="min-height:100px" cellspacing="0" cellpadding="0">
+<tr><td class="connectorP1">&nbsp;</td><td class="connectorP3"></td><td>&nbsp;</td></tr>
+<tr><td class="connectorP1">&nbsp;</td><td class="connectorP2"></td>
+<td style="border:none;" rowspan="3">
+
+<table border="0" style="height:100%" cellspacing="0" cellpadding="0"><tr><td style="height:100%">
+<div class="EmplNode1">
+{{mem3.name}}<br />
+{{mem3.title}}<br />
+{{mem3.tel}}
+</div>
+</td></tr></table>
+
+</td></tr>
+
+<tr><td ng-attr-class="{{$last && 'connectorP1B' || 'connectorP1'}}">&nbsp;</td><td class="connectorP3">&nbsp;</td></tr>
+<tr><td ng-attr-class="{{$last && 'connectorP1B' || 'connectorP1'}}">&nbsp;</td><td>&nbsp;</td></tr>
+
+
+<!-- new tree-branch to loop thru employees under an employee -->
+
+<tr ng-repeat="mem4 in mem3.team" style="background-color:#ffffff">
+<td class="connectorP1">&nbsp;</td>
+<td>&nbsp;</td>
+<td>
+<table border="0" width="100%" style="min-height:100px" cellspacing="0" cellpadding="0">
+<tr><td class="connectorP1">&nbsp;</td><td class="connectorP3"></td><td>&nbsp;</td></tr>
+<tr><td class="connectorP1">&nbsp;</td><td class="connectorP2"></td>
+<td style="border:none;" rowspan="3">
+
+<table border="0" style="height:100%" cellspacing="0" cellpadding="0"><tr><td style="height:100%">
+<div class="EmplNode1">
+{{mem4.name}}<br />
+{{mem4.title}}<br />
+{{mem4.tel}}
+</div>
+</td></tr></table>
+
+</td></tr>
+
+<tr><td ng-attr-class="{{$last && 'connectorP1B' || 'connectorP1'}}">&nbsp;</td><td class="connectorP3">&nbsp;</td></tr>
+<tr><td ng-attr-class="{{$last && 'connectorP1B' || 'connectorP1'}}">&nbsp;</td><td>&nbsp;</td></tr>
+
+<!-- if desirable, one more tree-branch for employees under an employee -->
+</table>
+</td></tr>
+<!-- end the new tree-branch to loop thru employees under the employee -->
+
+</table>
+</td></tr>
+<!-- end the new tree-branch to loop thru employees under the team-lead -->
+
+</table>
+
+</td></tr>
+
+<!-- end the new tree-branch to loop thru employees under the manager -->
+
+	</table> <!-- end table class=orgChrtInner1 -->  
+
+	</td>	<!-- End td ng-repeat="mem1 in headEmpl.team -->
+	</tr>
+	</table> <!-- end showing managers under the director -->
+
+</td>
+</tr>
+</table>  <!-- end table id=orgChrtOuter1 -->
+</div>  <!-- end div ng-app=YourOrgChartApp -->
+
+
+
+<!-- the following Angular template works, but its image background for node connectors don't show on Print -->
+
+<!-- 
+      <div ng-app="YourOrgChartApp" ng-controller="YourOrgChartControll" >
+      <table id="orgChrtOuter1" cellspacing="0" cellpadding="0" border="0">
+ <tr>
+      <td ng-repeat="headEmpl in emplees" class="emplTd1">      
+      <div class="headEmplDiv1"><div class="headEmplDiv2">
+      <img style="vertical-align:text-bottom" src="/sites/Your/Style%20Library/Your1/img/person1.png" alt="" /> 
+      <strong>{{headEmpl.name}}</strong>      
+      <a href="#" data-toggle="popover" data-content="<strong>Tel</strong>: {{headEmpl.tel}}<br /><strong>Email</strong>: <a href='mailto:{{headEmpl.Email}}'>{{headEmpl.Email}}</a><br /><strong>Office</strong>: <a href='#' onclick='LinkToFloorPlan()'>{{headEmpl.OfficeNo}} <img src='/sites/Your/Style%20Library/Your1/img/magnifier1.png' alt='' /></a>" data-trigger="focus"><img src="/sites/Your/Style%20Library/Your1/img/ThreeDots1.png" alt="" /></a>   
+      <br />
+      <span ng-bind-html="headEmpl.title | renderHTMLCorrectly"></span></div></div>
+      
+       <table id="orgChrtInner1" cellspacing="0" cellpadding="0" border="0">       
+       <tr>              
+       <td ng-repeat="mem1 in headEmpl.team" class="emplTd1 managrTd1" ng-attr-class="{{($first && !$last) && 'connector1' || ((!$first && $last) && 'connector3' || 'connector2')  }}">      
+			
+			<div class="lvl1 EmplNode1" ng-style="{'width': NodeWidthByNodeLength1(mem1.wideNode)}">			
+           <span style="margin:0px 0px!important;">
+           <img style="vertical-align:text-bottom" src="/sites/Your/Style%20Library/Your1/img/person1.png" alt="" /> 
+           <span ng-bind-html="mem1.name | renderHTMLCorrectly" style="font-weight:bolder"></span>
+           <button type="button" class="btn" data-toggle="popover" data-content="<strong>Tel</strong>: {{mem1.tel}}<br /><strong>Email</strong>: <a href='mailto:{{mem1.Email}}'>{{mem1.Email}}</a><br /><strong>Office</strong>: <a href='#' onclick='LinkToFloorPlan()'>{{mem1.OfficeNo}} <img src='/sites/Your/Style%20Library/Your1/img/magnifier1.png' alt='' /></a>" data-trigger="focus"><img src="/sites/Your/Style%20Library/Your1/img/ThreeDots1.png" alt="" /></button>
+           <br />
+           <span ng-bind-html="mem1.title | renderHTMLCorrectly"></span>
+           </span>
+           </div>
+
+       <table cellspacing="0" cellpadding="0" border="0">
+       
+       <tr ng-repeat="mem2 in mem1.team">
+       <td class="emplTd1" ng-attr-class="{{($first && !$last) && 'connector21' || ((!$first && $last) && 'connector23' || 'connector22')  }}" style="text-align:left">     
+        
+		<div class="EmplNode1" ng-style="{'margin':'15px 0px 0px 0px', 'width':NodeWidthByNodeLength1(mem2.wideNode)}">
+		<img style="vertical-align:text-bottom" src="/sites/Your/Style%20Library/Your1/img/person1.png" alt="" /> 
+           <span ng-bind-html="mem2.name | renderHTMLCorrectly" style="font-weight:bolder"></span> 
+           <a href="#" data-toggle="popover" data-content="<strong>Tel</strong>: {{mem2.tel}}<br /><strong>Email</strong>: <a href='mailto:{{mem2.Email}}'>{{mem2.Email}}</a><br /><strong>Office</strong>: <a href='#' onclick='LinkToFloorPlan()'>{{mem2.OfficeNo}} <img src='/sites/Your/Style%20Library/Your1/img/magnifier1.png' alt='' /></a>" data-trigger="focus"><img src="/sites/Your/Style%20Library/Your1/img/ThreeDots1.png" alt="" /></a>
+      
+           <br />
+           <span ng-bind-html="mem2.title | renderHTMLCorrectly"></span>
+        </div>
+           
+           
+       <table cellspacing="0" cellpadding="0" border="0">
+       <tr ng-repeat="mem3 in mem2.team">
+       <td class="connector6" ng-show="$first">&nbsp;</td><td ng-show="$first">&nbsp;</td>
+       </tr>
+       
+       <tr ng-repeat="mem3 in mem2.team">
+       <td ng-show="$first && !$last" class="connector7">&nbsp;</td>
+       <td ng-show="!$first && !$last" class="connector7">&nbsp;</td>
+       <td ng-show="$last || ($first && $last)" class="connector8">&nbsp;</td>
+       <td class="emplTd1" style="text-align:left">      
+       
+       <div class="EmplNode1" ng-style="{'margin':'10px 0px', 'width':NodeWidthByNodeLength1(mem3.wideNode)}">
+       
+       <strong>{{mem3.name}}</strong>
+       
+       <br />       
+       <span ng-bind-html="mem3.title | renderHTMLCorrectly"></span></div>
+           
+       </td>
+       </tr>   
+       
+       </table>  
+       
+       </td>
+       </tr>   
+       
+       </table>           
+       </td>
+       
+       </tr>     
+
+       </table>
+      
+      </td>
+    </tr>
+       
+  </table>
+
+  </div -->
+
+<br />
+
+
