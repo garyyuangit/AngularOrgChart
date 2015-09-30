@@ -1,0 +1,103 @@
+
+ var re = /\/CollectBargainSectorRept\/Forms\/[\s\S]+RootFolder\s*=\s*/gi;
+ if (!re.test(pgUrl))
+	  return false; 
+
+
+  var re1 = /^window.location\s*=\s*'*"*([^'"]+)'*"*;*/gi;
+  explorerViewMenuOnClick = explorerViewMenuOnClick.replace(re1,"$1");
+
+
+function ArrayContainsItem(arr, val)
+{ 
+    return ($.inArray(val, arr)>-1);
+}
+
+
+function FormatAnchorById(aID)
+{
+ $('a#' + aID).each(function(){
+   $(this).attr('style', 'color:blue;font-weight:bold');
+ }); 
+}
+
+function DateDiffDays(date1, date2) 
+{
+    var second=1000, minute=second*60, hour=minute*60, day=hour*24;
+    date1 = new Date(date1);
+    date2 = new Date(date2);
+    var timediff = date2 - date1;
+    if (isNaN(timediff)) return NaN;        
+ return Math.floor(timediff / day); 
+}
+
+function parseDate(str) {
+    var mdy = str.split('/')
+    return new Date(mdy[2], mdy[0]-1, mdy[1]);
+}
+function SetLrsAdmin()
+{ 
+ var thisUsr = $().SPServices.SPGetCurrentUser({fieldName: "EMail", debug: false});
+ isLRSAdmin = (thisUsr.toLowerCase()=='???@????.ca');
+}
+
+function HideDomElement(aId)
+{
+ $eObj = $('#' + aId)
+ if ($eObj.length)
+  $eObj.hide();
+}
+function GetScreenWidth()
+{
+ if (window.screen)
+ {
+  if (window.screen.width)
+   return window.screen.width;
+ }
+ if ($(window).width)
+  return $(window).width();
+ return 1152;
+}
+
+function addLoadEvent(func) {
+  var oldonload = window.onload;
+  if (typeof window.onload != 'function') {
+    window.onload = func;
+  } else {
+    window.onload = function() {
+      if (oldonload) {
+        oldonload();
+      }
+      func();
+    }
+  }
+}
+
+addLoadEvent(AddCollectBargainSectReptLeftNavi);
+addLoadEvent(HideRootFolderExplorerMenuItem);
+addLoadEvent(ShowExplorerViewWarning);
+addLoadEvent(HideBreadcrumbRootFolderExplorerLink);
+addLoadEvent(FormatBpsBySectorLeftNavi);
+addLoadEvent(CreateDocLibNaviTree);
+ 
+addLoadEvent(shootError);
+
+window.status = 'Processing: ' + aDocLibUrl;
+
+ function getQueryStringParameter( pName )
+ {  
+  pName = pName.replace(/[\[]/,"\\\[").replace(/[\]]/,"\\\]");  
+  var regexS = "[\\?&]" + pName + "=([^&#]*)";  
+  var regex = new RegExp( regexS );  
+  var results = regex.exec( window.location.href );  
+  if( results == null )    
+   return "";  
+  else    
+   return results[1];
+ }
+
+
+
+
+
+
